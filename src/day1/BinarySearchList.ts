@@ -1,7 +1,4 @@
-export default function binary_search_list(
-    haystack: number[],
-    needle: number,
-): boolean {
+export default function binary_search_list(haystack: number[], needle: number): boolean {
     let low = 0;
     let high = haystack.length;
 
